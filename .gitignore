@@ -1,0 +1,7 @@
+node_modules
+dist
+dist-ssr
+# Original full-size photos; the site uses the optimised copies in public/media.
+/media/
+# Local editor/tool settings
+.claude/

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1c1512" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="geo.region" content="ZA-GP" />
+    <meta name="geo.placename" content="Kempton Park" />
+    <!--app-head-->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231c1512'/><text x='16' y='24' font-family='Georgia,serif' font-style='italic' font-size='22' text-anchor='middle' fill='%23c9a46a'>S</text></svg>" />
+    <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
+    <link rel="manifest" href="%BASE_URL%site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <script>
+      // Internal page changes set this flag so the next page opens with the slab wipe.
+      document.documentElement.classList.add('js');
+      try { if (sessionStorage.getItem('sh-nav') === '1') { document.documentElement.classList.add('nav-in'); sessionStorage.removeItem('sh-nav'); } } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/entry-client.tsx"></script>
+  </body>
+</html>

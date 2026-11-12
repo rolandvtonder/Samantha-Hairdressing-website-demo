@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rolandvtonder.github.io/Samantha-Hairdressing-website-demo/sitemap.xml
